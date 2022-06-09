@@ -1,0 +1,16 @@
+sql_config:
+  source_db:
+      host: sk-prod-db.postgres.database.azure.com
+      user: psqladmin@sk-prod-db
+      password: dN7ClK0Rbfd3808e
+      database: sk_db_prod
+      port: 5432
+  target_db:
+      host: starterkit-prod-db.postgres.database.azure.com
+      user: psqladmin@starterkit-prod-db
+      password: fPLGNjjQMB9UoaW6
+      database: sk_db_prod
+      port: 5432
+search_config:
+    slice: 100
+    choose: 30
